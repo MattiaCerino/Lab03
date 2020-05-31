@@ -67,7 +67,7 @@ public class FXMLController {
     	List<RichWord> controllo = new LinkedList<>();
     	double start = System.nanoTime();
     	controllo = this.dictionary.spellCheckText(inserimento);
-    	double stop = System.nanoTime();    
+    	double stop = System.nanoTime();
     	int numParoleErrate = 0;
     	List<String> paroleErrate = new LinkedList<>();
     	for (RichWord r : controllo) {
